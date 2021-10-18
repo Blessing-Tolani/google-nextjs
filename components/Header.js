@@ -43,7 +43,7 @@ export default function Header() {
 
             <a
               href="#"
-              className="ml-8 whitespace-nowrap hidden sm:inline-flex font-sans  items-center justify-center px-6 py-2 border border-transparent rounded-md hover:shadow-md text-sm text-white link-color "
+              className="ml-8 whitespace-nowrap hidden sm:inline-flex font-sans  items-center justify-center px-6 py-2 border border-transparent rounded-md hover:shadow-md text-sm text-white link-color"
             >
               Sign in
             </a>
@@ -56,7 +56,7 @@ export default function Header() {
             </div>
             <a
               href="#"
-              className="ml-4 whitespace-nowrap inline-flex font-sans  justify-center px-3.5 py-1.5 border border-transparent rounded-md hover:shadow-md font-medium text-sm text-white link-color "
+              className="ml-4 whitespace-nowrap inline-flex font-sans  justify-center px-3.5 py-1.5 border border-transparent rounded-md hover:shadow-md font-medium text-sm text-white link-color"
             >
               Sign in
             </a>
