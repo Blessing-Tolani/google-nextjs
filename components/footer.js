@@ -37,6 +37,7 @@ export default function Footer() {
             {navigation.main.map((item) => (
               <a
                 href={item.href}
+                key={item.name}
                 className="text-sm text-color hover:underline px-3 py-2"
               >
                 {item.name}
@@ -50,6 +51,7 @@ export default function Footer() {
             {navigation.social.map((item) => (
               <a
                 href={item.href}
+                key={item.name}
                 className="text-sm text-color hover:underline px-5 py-2"
               >
                 {item.name}
