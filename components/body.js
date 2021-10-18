@@ -48,13 +48,13 @@ export default function Body() {
       <div className="text-center mt-6 hidden sm:block">
         <a
           href="#"
-          className="inline-flex items-center px-4 py-2 border border-transparent text-sm rounded-md text-gray-500 bg-lightash focus:outline-none hover:border hover:border-gray-200 hover:shadow-sm"
+          className="inline-flex items-center px-4 py-2 border border-transparent text-sm rounded-md text-gray-500 background focus:outline-none hover:border hover:border-gray-200 hover:shadow-sm"
         >
           Google search
         </a>
         <a
           href="https://perfects.engineering"
-          className="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm  rounded-md text-gray-500 bg-lightash   focus:outline-none hover:border hover:border-gray-200 hover:shadow-sm"
+          className="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm  rounded-md text-gray-500 background   focus:outline-none hover:border hover:border-gray-200 hover:shadow-sm"
         >
           I'm Feeling Lucky
         </a>

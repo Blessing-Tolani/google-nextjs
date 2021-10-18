@@ -14,8 +14,12 @@ export default function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
         />
+        <link
+          href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+          rel="stylesheet"
+        />
       </Head>
-      <div className="flex flex-col h-screen justify-between">
+      <div className="flex flex-col h-screen justify-between ">
         <div>
           <Header />
           <Body />
