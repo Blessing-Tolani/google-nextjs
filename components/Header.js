@@ -36,10 +36,18 @@ export default function Header() {
               Sign in
             </a>
           </div>
-          <div className="dotbox static right-0 sm:hidden group  hover:rounded-full p-1 inline-flex text-gray-500 focus:outline-none ">
-            <span>
-              <CgMenuGridO className="text-2xl" />
-            </span>
+          <div className="static right-0 sm:hidden flex items-center ">
+            <div className="dotbox  hover:rounded-full p-1 inline-flex text-gray-500 focus:outline-none ">
+              <span>
+                <CgMenuGridO className="text-2xl" />
+              </span>
+            </div>
+            <a
+              href="#"
+              className="ml-4 whitespace-nowrap inline-flex font-sans  justify-center px-3.5 py-1.5 border border-transparent rounded-md hover:shadow-md font-medium text-sm text-white link-color "
+            >
+              Sign in
+            </a>
           </div>
         </div>
       </div>
