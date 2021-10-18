@@ -13,12 +13,24 @@ export default function Header() {
         <div className="flex justify-start items-center sm:justify-end space-x-10">
           <div className=" font-sans flex items-center flex-1 justify-start sm:justify-end lg:w-0 space-x-6 h-16">
             <div>
-              <a href="#" className="text-sm text-gray-600 hover:underline">
+              <a
+                href="#"
+                className="text-sm hidden sm:block text-gray-600 hover:underline"
+              >
                 Gmail
+              </a>
+              <a
+                href="#"
+                className="all border-b text-sm block sm:hidden uppercase"
+              >
+                All
               </a>
             </div>
             <div>
-              <a href="#" className="text-sm text-gray-600 hover:underline">
+              <a
+                href="#"
+                className="text-sm text-gray-600 hover:underline uppercase sm:capitalize"
+              >
                 Images
               </a>
             </div>
