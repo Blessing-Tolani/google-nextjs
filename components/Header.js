@@ -23,7 +23,7 @@ export default function Header() {
               </a>
             </div>
 
-            <div className="dotbox hidden group  hover:rounded-full p-1 sm:inline-flex text-gray-500 focus:outline-none ">
+            <div className="dotbox hidden  hover:rounded-full p-1 sm:inline-flex text-gray-500 focus:outline-none ">
               <span>
                 <CgMenuGridO className="text-2xl" />
               </span>

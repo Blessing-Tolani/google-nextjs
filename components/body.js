@@ -56,7 +56,7 @@ export default function Body() {
           href="https://perfects.engineering"
           className="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm  rounded-md text-gray-500 background   focus:outline-none hover:border hover:border-gray-200 hover:shadow-sm"
         >
-          I&#39m Feeling Lucky
+          I<span>&#39;</span>m Feeling Lucky
         </a>
       </div>
       <div className=" flex justify-center mt-4 sm:mt-8">
